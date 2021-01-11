@@ -1,0 +1,17 @@
+#!/bin/bash
+
+#rm *.pdf
+
+rm *.aux *.toc *.log *.out *.dvi
+
+rm *.synctex*
+
+rm .*.xml ._* .DS_Store
+
+rm *.tex~ *.sty~
+
+rm *.lof *.ps
+
+rm -R __MACOSX
+
+rm *~*
